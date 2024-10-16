@@ -82,7 +82,12 @@ public class Methods {
 	public static int arraySum(int[] values) {
 		int sum = 0;
 		// FIXME: Compute the sum of the values in an array
-		
+		for (x >= 0; x < values.length; x++) {
+			for (y >= 0; y < values[0].length; y++) {
+				double firstVal = values[x][y];
+				totalSum =+ firstVal;
+			}
+		}
 		return sum;
 	}
 
